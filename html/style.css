@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: none;
+    color: white;
+}
+
+#vehicle-hud {
+    position: absolute;
+    bottom: 4.5%;
+padding-bottom: 0;
+    right: 5%;
+    display: none;
+    color: white;
+}
+
+.hud-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}
+
+.gear {
+    background: rgba(255,255,255,0.1);
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 28px;
+    height: 100%;
+    line-height: 1;
+}
+
+.fuel-container {
+    margin-top: -10px;
+}
+
+.fuel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fuel-bar {
+    width: 180px;
+    height: 8px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.fuel-fill {
+    height: 100%;
+    background: #00afff;
+    transition: width 0.3s ease;
+}
+
+.fuel-text {
+    font-size: 21px;
+    opacity: 0.8;
+}
