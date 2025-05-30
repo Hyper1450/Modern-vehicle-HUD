@@ -4,9 +4,10 @@ This is a sleek, modern, and minimalistic vehicle HUD for FiveM, fully compatibl
 ## Installation
 
 1. Place the folder in your `resources` folder.
-2. Add this to your `server.cfg`:
+2. Remove "main" from the end of the file name.
+3. Add this to your `server.cfg`:
    ```
-   ensure vehicle-hud
+   ensure "Modern-vehicle-HUD"
    ```
 
 ## Configuration
