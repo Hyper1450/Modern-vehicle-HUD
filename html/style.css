@@ -71,3 +71,25 @@ padding-bottom: 0;
     font-size: 21px;
     opacity: 0.8;
 }
+
+.info {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}
+
+#speed {
+    font-size: 48px;
+}
+
+#unit {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.fuel-text {
+    font-size: 14px;
+}
