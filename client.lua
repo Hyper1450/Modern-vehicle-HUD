@@ -25,8 +25,8 @@ end
 
 local function getFuelLevel(veh)
     local fuelSystem = Config.FuelSystem
-    if fuelSystem == 'nd_fuel' and exports['nd_fuel'] then
-        return exports['nd_fuel']:GetFuel(veh)
+    if fuelSystem == '' and exports[''] then
+        return exports['']:GetFuel(veh)
     elseif fuelSystem == 'legacy' and exports['LegacyFuel'] then
         return exports['LegacyFuel']:GetFuel(veh)
     elseif fuelSystem == 'esx' and GetResourceState('es_extended') == 'started' then
