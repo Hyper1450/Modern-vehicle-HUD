@@ -14,7 +14,7 @@ This is a sleek, modern, and minimalistic vehicle HUD for FiveM, fully compatibl
 
 Open `config.lua` to change:
 - Speed unit: `'kmh'` or `'mph'`
-- Fuel system: `'native'`, `'nd_fuel'`, `'legacy'`, `'esx'`, or `'qb'`
+- Fuel system: `'native'`, `'legacy'`, `'esx'`, or `'qb'`
 - HUD screen position using:
   - `'left'`, `'center'`, `'right'`
   - `'top'`, `'middle'`, `'bottom'`
